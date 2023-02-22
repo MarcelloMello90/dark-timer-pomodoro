@@ -7,7 +7,12 @@ import {
   btnRain,
   btnStop,
   btnUpTimer,
-  btnDownTimer
+  btnDownTimer,
+  darkBody,
+  btnLignt,
+  // btnDark,
+  // wrapperCardsSounds,
+  // wrapperControls,
 } from "./elements.js"
 
 import Sounds from "./sounds.js"
@@ -66,4 +71,11 @@ export default function({controls, timer, sound}) {
   btnDownTimer.addEventListener('click', function() {
     timer.DownMinutes()
   })
+
+  btnLignt.addEventListener('click', function() {
+    controls.onOffDark()
+  })
+
 }
+
+

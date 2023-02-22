@@ -1,19 +1,19 @@
 
 import Sounds from "./sounds.js"
-import {
-  btnPlay,
-  btnPause,
-  btnStop,
-  btnForest,
-  btnRain,
-  btnCoffee,
-  btnFirePlace,
-  minutesDisplay,
-  secondsDisplay,
-  btnUpTimer,
-  btnDownTimer
-} from "./elements.js"
-import Controls from "./controls.js"
+// import {
+//   btnPlay,
+//   btnPause,
+//   btnStop,
+//   btnForest,
+//   btnRain,
+//   btnCoffee,
+//   btnFirePlace,
+//   minutesDisplay,
+//   secondsDisplay,
+//   btnUpTimer,
+//   btnDownTimer
+// } from "./elements.js"
+// import Controls from "./controls.js"
 
 export default function({ 
   minutesDisplay, 

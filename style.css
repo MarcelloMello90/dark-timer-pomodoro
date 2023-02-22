@@ -28,8 +28,6 @@ body{
   align-items: center;
   margin: 0 auto;
   padding: 2rem;
-
-
 }
 
 main{
@@ -73,7 +71,13 @@ button{
   display: none;
 }
 
-
+/* modo light */
+.imgLight{
+  position: fixed ;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
 
 .btnActive svg path:first-child{
   fill: #02799D;
@@ -81,6 +85,43 @@ button{
 
 .btnActive svg path:last-child{
   fill: white;
+}
+
+
+/* modo dark */
+.imgDark{
+  position: fixed ;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.darkBg{
+  background: #121214;
+}
+
+.darkTimer{
+  color: white;
+}
+
+.darkControls svg path{
+  fill:#C4C4CC;
+}
+
+.btnCardDark svg path:first-child{
+fill: #29292E;
+}
+
+.btnCardDark svg path:last-child{
+  fill: #C4C4CC;
+}
+
+.btnActiveDark svg path:first-child{
+  fill: #0A3442;
+}
+
+.btnActiveDark svg path:last-child{
+  fill: #ffffff;
 }
 
 
@@ -108,10 +149,9 @@ button{
   .cards-sound{
     max-width: 30.8rem;
     max-height: 33.6rem;
-
-  
   }
 }
+
 
 
 

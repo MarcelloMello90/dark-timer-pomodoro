@@ -1,7 +1,9 @@
 export default function Controls({
   btnPause,
   btnPlay,
-  btnForest
+  reset,
+  // btnDark,
+  // btnForest
 }) {
 
   function play() {
@@ -26,10 +28,33 @@ export default function Controls({
     btn3.classList.remove("btnActive")
   }
 
+  function onOffDark() {
+    // btnLignt.classList.toggle("hide")
+    btnDark.classList.toggle("hide")
+    // darkBody.classList.toggle("darkBg")
+
+  }
+
   return {
     reset,
     play,
     pause,
-    actBtn
+    actBtn,
+    onOffDark,
   }
 }
+
+
+// 
+//     
+//     wrapperControls.toggle("darkControls")
+    
+
+
+// <div class="cards-sound btnCardDark"></div>
+
+// <div class="wrapper darkControls">
+
+// <body class="darkBg">
+
+// <button class="imgDark hide " 

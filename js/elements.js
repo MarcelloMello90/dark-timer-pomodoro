@@ -9,6 +9,14 @@ const btnRain = document.querySelector('.card-rain')
 const btnCoffee = document.querySelector('.card-coffee')
 const btnFirePlace = document.querySelector('.card-firePlace')
 
+
+const darkBody = document.querySelector('body')
+const btnLignt = document.querySelector('.imgLight')
+const btnDark = document.querySelector('.imgDark')
+// const wrapperControls = document.querySelector('.wrapperCtrls')
+// const wrapperCardsSounds = document.querySelector(".cards-sound")
+
+
 const minutesDisplay = document.querySelector('.minutes')
 const secondsDisplay = document.querySelector('.seconds')
 
@@ -24,5 +32,10 @@ export {
   minutesDisplay,
   secondsDisplay,
   btnUpTimer,
-  btnDownTimer
+  btnDownTimer,
+  darkBody,
+  btnLignt,
+  btnDark,
+  // wrapperCardsSounds,
+  // wrapperControls,
 }

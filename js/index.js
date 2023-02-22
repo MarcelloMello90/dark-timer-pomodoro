@@ -11,7 +11,14 @@ import {
   btnCoffee,
   btnFirePlace,
   minutesDisplay,
-  secondsDisplay
+  secondsDisplay,
+  // btnUpTimer,
+  // btnDownTimer,
+  // darkBody,
+  // wrapperCardsSounds,
+  // wrapperControls,
+  // btnLignt,
+  // btnDark,
 } from "./elements.js"
 
 const controls = Controls({
@@ -22,6 +29,7 @@ const controls = Controls({
   btnRain,
   btnCoffee,
   btnFirePlace,
+  onOffDark,
 })
 
 const timer = Timer({
