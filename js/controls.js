@@ -8,7 +8,6 @@ export default function Controls({
   function play() {
     btnPlay.classList.add('hide')
     btnPause.classList.remove('hide')
-    
   }
 
   function pause() {
@@ -33,6 +32,5 @@ export default function Controls({
     play,
     pause,
     actBtn,
-    
   }
 }

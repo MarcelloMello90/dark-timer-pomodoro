@@ -9,7 +9,6 @@ const btnRain = document.querySelector('.card-rain')
 const btnCoffee = document.querySelector('.card-coffee')
 const btnFirePlace = document.querySelector('.card-firePlace')
 
-
 const bodyBg = document.querySelector('body')
 const btnLight = document.querySelector('.imgLight')
 const btnDark = document.querySelector('.imgDark')

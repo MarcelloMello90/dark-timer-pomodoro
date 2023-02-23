@@ -12,8 +12,6 @@ import {
   btnFirePlace,
   minutesDisplay,
   secondsDisplay,
-  // btnUpTimer,
-  // btnDownTimer,
   bodyBg,
   darkCards,
   ctrlsGroup,
@@ -33,7 +31,6 @@ const controls = Controls({
   btnRain,
   btnCoffee,
   btnFirePlace,
-  // onOffDark,
 })
 
 const timer = Timer({

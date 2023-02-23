@@ -1,26 +1,10 @@
 
 import Sounds from "./sounds.js"
-// import {
-//   btnPlay,
-//   btnPause,
-//   btnStop,
-//   btnForest,
-//   btnRain,
-//   btnCoffee,
-//   btnFirePlace,
-//   minutesDisplay,
-//   secondsDisplay,
-//   btnUpTimer,
-//   btnDownTimer
-// } from "./elements.js"
-// import Controls from "./controls.js"
 
 export default function({ 
   minutesDisplay, 
   secondsDisplay, 
   resetControls,
- 
-  
   }) {
 
   let timerTimeOut
@@ -53,7 +37,6 @@ export default function({
         Sounds().timeEnd()
         return
       }
-
 
       if( seconds <= 0 ) {
         seconds = 60
@@ -89,11 +72,9 @@ export default function({
 
     if(minutes <= 0){
       minutes= 0
-      
     }
 
     updateDisplay(minutes, 0)
-
   }
   
 

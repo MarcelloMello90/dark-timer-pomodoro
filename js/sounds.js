@@ -26,13 +26,11 @@ export default function() {
     bgCoffee.pause()
     bgRain.pause()
 
-
     bgFirePlace.loop = true
 
     btnVolFirePlace.addEventListener("input",() => {
       bgFirePlace.volume = Number(btnVolFirePlace.value)
     })
-    
   }
   
   function cardForest () {
@@ -46,7 +44,6 @@ export default function() {
     btnVolForest.addEventListener("input",() => {
       bgforest.volume = Number(btnVolForest.value)
     })
-  
   }
 
   function cardCoffee () {
@@ -82,8 +79,6 @@ export default function() {
     cardForest,
     cardCoffee,
     cardRain,
-  
   }
-
 }
 
