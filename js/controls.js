@@ -8,6 +8,7 @@ export default function Controls({
   function play() {
     btnPlay.classList.add('hide')
     btnPause.classList.remove('hide')
+    
   }
 
   function pause() {

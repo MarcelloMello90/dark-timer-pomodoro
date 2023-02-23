@@ -20,6 +20,8 @@ const timerDark = document.querySelector('.wrapperTimer')
 const minutesDisplay = document.querySelector('.minutes')
 const secondsDisplay = document.querySelector('.seconds')
 
+const btnVol = document.querySelector('.inputrange')
+
 
 export {
   btnPlay,
@@ -39,4 +41,5 @@ export {
   darkCards,
   timerDark,
   ctrlsGroup,
+  btnVol,
 }

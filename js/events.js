@@ -73,9 +73,7 @@ export default function({controls, timer, sound}) {
     timer.DownMinutes()
   })
 
-  // btnLignt.addEventListener('click', function() {
-  //   controls.onOffDark()
-  // })
+  
 
 }
 
