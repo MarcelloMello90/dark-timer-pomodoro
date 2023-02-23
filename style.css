@@ -7,18 +7,41 @@
 :root{
   
   --base-color: 240;
-  --text-color: hsl(var(--base-color), 6%, 21%);
 
-  --bg-color: #ffffff;
-  --bg-card-primary: hsla(var(--base-color), 9%, 89%, 1);
-  --bg-card-second: hsla(var(--base-color), 97%, 31%, 1);
+  /* color bg body*/
+  --bg-primary: hsla(var(--base-color), 0%, 100%);
+  --bg-secondary: hsla(var(--base-color), 5%, 7%);
+
+
+  /* color timer*/
+  --text-color: hsla(var(--base-color), 6%, 17%);
+  /* --text-color1: hsla(var(--base-color), 0%, 100%); */
+
+  /*cards mode light*/
+  --svg-card1:hsla(194, 97%, 31%);
+  --svg-card2:hsla(var(--base-color), 0%, 100%);
+
+  --svg-ctrlsColor:  hsl(240, 6%, 21%);
+
+  --svg-bgCards: hsl(240, 9%, 89%);
+  --svg-colorCards:hsl(240, 6%, 21%);
+
+
+  /*cards mode dark*/
+  --svg-cardDark1: hsla(240, 6%, 17%);
+  --svg-cardDark2:hsla(240, 7%, 78%);
+  --svg-cardDark3: hsla(195, 74%, 15%);
+  --svg-cardDark4: hsla(0, 0%, 100%);
+
+
+
 
   font-size: 62.5%;
 }
 
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: var(--bg-color);
+  background-color: var(--bg-primary);
   color: var(--text-color);
 
   max-width: 82.1rem;
@@ -79,51 +102,61 @@ button{
   cursor: pointer;
 }
 
+.svg-ctrlsColor{
+  fill: var(--svg-ctrlsColor)
+}
+
+.svg-bgCards{
+  fill: var(--svg-bgCards) ;
+}
+
+.svg-colorCards{
+  fill: var(--svg-colorCards);
+
+}
+
+
 .btnActive svg path:first-child{
-  fill: #02799D;
+  fill: var(--svg-card1);
 }
 
 .btnActive svg path:last-child{
-  fill: white;
+  fill: var(--svg-card2);
 }
 
 
 /* modo dark */
 .imgDark{
-  position: fixed ;
+  position: fixed;
   top: 20px;
   right: 30px;
   cursor: pointer;
 }
 
+
+
 .darkBg{
-  background: #121214;
-}
+  background: var(--bg-secondary);
+  --text-color1: hsla(var(--base-color), 0%, 100%);
+  
+  color: var(--text-color1);
 
-.darkTimer{
-  color: white;
-}
+ --svg-card1: hsla(195, 74%, 15%);
+  
+ 
+  /* fill: var(--svg-card2); */
 
-.darkControls svg path{
-  fill:#C4C4CC;
-}
+  --svg-ctrlsColor:hsla(240, 7%, 78%);
 
-.btnCardDark svg path:first-child{
-fill: #29292E;
-}
+  --svg-bgCards: hsla(240, 6%, 17%);
+  --svg-colorCards: hsla(240, 7%, 78%);
+  
+  --svg-card1:hsla(195, 74%, 15%);
+  --svg-card2:hsla(0, 0%, 100%);
+  
 
-.btnCardDark svg path:last-child{
-  fill: #C4C4CC;
+  
 }
-
-.btnActiveDark svg path:first-child{
-  fill: #0A3442;
-}
-
-.btnActiveDark svg path:last-child{
-  fill: #ffffff;
-}
-
 
 .cards-sound{
   max-width: 30.8rem;

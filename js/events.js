@@ -8,11 +8,10 @@ import {
   btnStop,
   btnUpTimer,
   btnDownTimer,
-  darkBody,
-  btnLignt,
+  // darkBody,
+  // btnLignt,
   // btnDark,
-  // wrapperCardsSounds,
-  // wrapperControls,
+  
 } from "./elements.js"
 
 import Sounds from "./sounds.js"
@@ -49,6 +48,8 @@ export default function({controls, timer, sound}) {
   btnFirePlace.addEventListener('click', function() {
     sounds.cardFirePlace()
     controls.actBtn(btnFirePlace, btnForest, btnCoffee, btnRain)
+    // controls.actBtnDark(btnFirePlace, btnForest, btnCoffee, btnRain)
+
 
   })
 
@@ -72,9 +73,9 @@ export default function({controls, timer, sound}) {
     timer.DownMinutes()
   })
 
-  btnLignt.addEventListener('click', function() {
-    controls.onOffDark()
-  })
+  // btnLignt.addEventListener('click', function() {
+  //   controls.onOffDark()
+  // })
 
 }
 

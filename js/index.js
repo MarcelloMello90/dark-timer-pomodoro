@@ -14,12 +14,16 @@ import {
   secondsDisplay,
   // btnUpTimer,
   // btnDownTimer,
-  // darkBody,
-  // wrapperCardsSounds,
-  // wrapperControls,
-  // btnLignt,
-  // btnDark,
+  bodyBg,
+  darkCards,
+  ctrlsGroup,
+  btnLight,
+  btnDark,
+  timerDark
 } from "./elements.js"
+
+import { darkMode } from "./theme.js"
+darkMode({btnLight, btnDark, bodyBg, ctrlsGroup, timerDark, darkCards})
 
 const controls = Controls({
   btnPause,
@@ -29,7 +33,7 @@ const controls = Controls({
   btnRain,
   btnCoffee,
   btnFirePlace,
-  onOffDark,
+  // onOffDark,
 })
 
 const timer = Timer({
