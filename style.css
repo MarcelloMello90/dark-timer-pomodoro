@@ -5,6 +5,7 @@
 }
 
 :root{
+  font-size: 62.5%;
   
   --base-color: 240;
 
@@ -36,7 +37,7 @@
 
 
 
-  font-size: 62.5%;
+ 
 }
 
 body{
